@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>About Space Ambient</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" >
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css} "/>
+    <script defer th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <script defer th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+    <script defer th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0 fixed-top">
+    <div class="container">
+        <a class="navbar-brand">Space Ambient</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item px-2">
+                    <a href="/artists" class="nav-link active">Artists</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a href="#" class="nav-link">New Releases</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a href="/about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a href="/submit" class="nav-link">Submit</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<!--START HEADER -->
+<header class="my-4 py-4 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1><i class="fa fa-music"> About</i></h1>
+            </div>
+        </div>
+    </div>
+</header>
+<!--END HEADER -->
+
+
+<h3><p>📡 Music on the channel is great for studying, relaxing, inspiration & painting, writing Sci-Fi novels, films & more.
+    👨‍🚀👩🏾‍🚀🚀</p></h3>
+
+<!-- FOOTER -->
+<footer th:replace="fragment/footer :: footer_fragment">
+</footer>
+
+
+</body>
+</html>
