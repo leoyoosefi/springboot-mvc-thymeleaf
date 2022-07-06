@@ -15,4 +15,5 @@ public class ArtistsController {
         return "artists";
 
     }
+
 }

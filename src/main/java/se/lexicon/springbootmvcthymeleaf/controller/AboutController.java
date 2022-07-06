@@ -14,4 +14,5 @@ public class AboutController {
         model.addAttribute("serverDate", currentDate);
         return "about";
     }
+
 }

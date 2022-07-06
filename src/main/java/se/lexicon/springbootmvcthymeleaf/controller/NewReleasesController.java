@@ -14,4 +14,5 @@ public class NewReleasesController {
         model.addAttribute("serverDate", currentDate);
         return "new-releases";
     }
+
 }

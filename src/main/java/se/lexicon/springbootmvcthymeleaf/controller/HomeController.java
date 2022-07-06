@@ -17,4 +17,5 @@ public class HomeController {
         System.out.println("##### home method has been executed ####");
         return "index";
     }
+
 }
